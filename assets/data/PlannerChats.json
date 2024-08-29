@@ -1,0 +1,132 @@
+[
+    {
+        "id": "1",
+        "name": "Alex Johnson",
+        "lastMessage": "What's the update on the venue?",
+        "time": "2024-08-20T14:30:00Z",
+        "messages": [
+            "Hi! What’s the update on the venue?",
+            "We need to finalize the booking details.",
+            "Let me know if there are any changes.",
+            "Thanks for keeping me informed.",
+            "Looking forward to your update."
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Jordan Lee",
+        "lastMessage": "Have the invitations been sent?",
+        "time": "2024-08-19T13:15:00Z",
+        "messages": [
+            "Hello! Have the invitations been sent out?",
+            "We need to ensure all guests receive them.",
+            "Please confirm the status of the invitations.",
+            "Let me know if you need any assistance.",
+            "Thanks for your help!"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Taylor Smith",
+        "lastMessage": "Confirm the catering details.",
+        "time": "2024-08-18T12:00:00Z",
+        "messages": [
+            "Hi! Can you confirm the catering details?",
+            "We need to finalize the menu options.",
+            "Please send over the final catering plan.",
+            "Let me know if there are any special requests.",
+            "Thanks for your cooperation."
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Morgan Davis",
+        "lastMessage": "Update on the audio-visual setup?",
+        "time": "2024-08-17T11:45:00Z",
+        "messages": [
+            "Hello! Any updates on the audio-visual setup?",
+            "We need to confirm the equipment list.",
+            "Please provide a status update.",
+            "Let me know if there are any issues.",
+            "Thanks for your assistance."
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Casey Wilson",
+        "lastMessage": "Check the RSVP status.",
+        "time": "2024-08-16T10:30:00Z",
+        "messages": [
+            "Hi there! Can you check the RSVP status?",
+            "We need to know the number of attendees.",
+            "Please update the guest list.",
+            "Let me know if you need any help.",
+            "Thanks for keeping track."
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Riley Taylor",
+        "lastMessage": "I need the vendor contacts for the event.",
+        "time": "2024-08-15T15:00:00Z",
+        "messages": [
+            "Hi! I need the contact details for the vendors.",
+            "Please send me the information as soon as possible.",
+            "The vendors need to be briefed on the event requirements.",
+            "Let me know if there are any updates.",
+            "Thank you for your prompt attention."
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Jamie Brown",
+        "lastMessage": "Confirm the setup time for the event.",
+        "time": "2024-08-14T14:30:00Z",
+        "messages": [
+            "Hello! Can you confirm the setup time for the event?",
+            "We need to finalize the schedule for the setup team.",
+            "Please provide a time that works best for you.",
+            "The setup needs to be completed before the event starts.",
+            "Thanks for your cooperation!"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Dakota Miller",
+        "lastMessage": "Do you have any special requests for the event?",
+        "time": "2024-08-13T13:15:00Z",
+        "messages": [
+            "Hi! Do you have any special requests for the event?",
+            "We want to make sure everything is tailored to your needs.",
+            "Please let us know if there are any specific arrangements.",
+            "We’re here to ensure everything goes smoothly.",
+            "Looking forward to your suggestions."
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Avery Johnson",
+        "lastMessage": "Please review the final guest list.",
+        "time": "2024-08-12T12:00:00Z",
+        "messages": [
+            "Hello! I’ve sent over the final guest list for review.",
+            "Please check and confirm the details.",
+            "Let me know if there are any additions or changes.",
+            "We need the final list for seating arrangements.",
+            "Thanks for your prompt feedback."
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Cameron Martinez",
+        "lastMessage": "Are there any changes to the event timeline?",
+        "time": "2024-08-11T11:30:00Z",
+        "messages": [
+            "Hi there! Are there any changes to the event timeline?",
+            "We need to ensure that everything is on track.",
+            "Please review the proposed timeline and confirm.",
+            "Let me know if there are any adjustments needed.",
+            "Thanks for your assistance!"
+        ]
+    }
+]

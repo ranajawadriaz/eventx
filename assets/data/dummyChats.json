@@ -1,0 +1,8 @@
+[
+    { "id": "1", "name": "John Doe", "lastMessage": "Looking forward to the event!", "time": "2024-08-20T14:30:00Z" },
+    { "id": "2", "name": "Jane Smith", "lastMessage": "Can you send me the details?", "time": "2024-08-20T13:15:00Z" },
+    { "id": "3", "name": "Alice Johnson", "lastMessage": "See you at the venue.", "time": "2024-08-20T12:00:00Z" },
+    { "id": "4", "name": "Bob Brown", "lastMessage": "Just got the ticket!", "time": "2024-08-19T17:45:00Z" },
+    { "id": "5", "name": "Charlie Davis", "lastMessage": "Is there any update?", "time": "2024-08-19T16:30:00Z" }
+  ]
+  

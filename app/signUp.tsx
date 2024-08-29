@@ -8,7 +8,7 @@ const loadFonts = async () => {
     });
 };
 
-export default function HomeScreen({navigation}) {
+export default function HomeScreen({navigation}:any) {
     const [fontsLoaded, setFontsLoaded] = useState(false);
     const [focusedInput, setFocusedInput] = useState<string | null>(null);
     // State to track which input is focused

@@ -1,0 +1,12 @@
+[
+    { "id": "1", "name": "Tech Conference", "date": "2024-09-01", "location": "New York" },
+    { "id": "2", "name": "AI Summit", "date": "2024-09-10", "location": "San Francisco" },
+    { "id": "3", "name": "Blockchain Expo", "date": "2024-09-15", "location": "London" },
+    { "id": "4", "name": "Web Development Workshop", "date": "2024-09-20", "location": "Berlin" },
+    { "id": "5", "name": "Mobile App Hackathon", "date": "2024-09-25", "location": "Tokyo" },
+    { "id": "6", "name": "Cybersecurity Meetup", "date": "2024-09-30", "location": "Sydney" },
+    { "id": "7", "name": "Cloud Computing Conference", "date": "2024-10-05", "location": "Amsterdam" },
+    { "id": "8", "name": "UX/UI Design Fair", "date": "2024-10-10", "location": "Paris" },
+    { "id": "9", "name": "Startup Pitch Night", "date": "2024-10-15", "location": "Los Angeles" },
+    { "id": "10", "name": "Big Data Summit", "date": "2024-10-20", "location": "Singapore" }
+]

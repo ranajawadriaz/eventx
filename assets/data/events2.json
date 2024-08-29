@@ -1,0 +1,73 @@
+[
+    {
+      "id": "1",
+      "title": "Tech Conference in New York",
+      "description": "Join us for a tech conference featuring industry leaders and cutting-edge innovations.",
+      "location": "New York",
+      "date": "2024-09-01"
+    },
+    {
+      "id": "2",
+      "title": "Marketing Summit in Los Angeles",
+      "description": "An exciting summit focusing on the latest trends and strategies in marketing.",
+      "location": "Los Angeles",
+      "date": "2024-09-15"
+    },
+    {
+      "id": "3",
+      "title": "Startup Expo in Chicago",
+      "description": "Showcase of the most promising startups and networking opportunities.",
+      "location": "Chicago",
+      "date": "2024-10-01"
+    },
+    {
+      "id": "4",
+      "title": "Design Thinking Workshop in San Francisco",
+      "description": "Interactive workshop on design thinking methodologies and practices.",
+      "location": "San Francisco",
+      "date": "2024-10-10"
+    },
+    {
+      "id": "5",
+      "title": "Healthcare Innovations Conference in Houston",
+      "description": "A conference exploring the latest advancements in healthcare technologies.",
+      "location": "Houston",
+      "date": "2024-11-01"
+    },
+    {
+      "id": "6",
+      "title": "FinTech Forum in Phoenix",
+      "description": "Forum discussing the future of finance and technology integration.",
+      "location": "Phoenix",
+      "date": "2024-11-15"
+    },
+    {
+      "id": "7",
+      "title": "AI and Robotics Symposium in Philadelphia",
+      "description": "Symposium covering advancements in artificial intelligence and robotics.",
+      "location": "Philadelphia",
+      "date": "2024-12-01"
+    },
+    {
+      "id": "8",
+      "title": "E-commerce Trends Conference in San Antonio",
+      "description": "Conference focusing on emerging trends in e-commerce and digital retail.",
+      "location": "San Antonio",
+      "date": "2024-12-15"
+    },
+    {
+      "id": "9",
+      "title": "Cybersecurity Summit in San Diego",
+      "description": "Summit dedicated to discussing the latest challenges and solutions in cybersecurity.",
+      "location": "San Diego",
+      "date": "2025-01-01"
+    },
+    {
+      "id": "10",
+      "title": "Blockchain Technology Meetup in Dallas",
+      "description": "Meetup to discuss the latest developments and applications of blockchain technology.",
+      "location": "Dallas",
+      "date": "2025-01-15"
+    }
+  ]
+  

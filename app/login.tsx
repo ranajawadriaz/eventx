@@ -17,21 +17,21 @@ export default function Details({ setShowDetails }: DetailsProps) {
     const [focusedInput, setFocusedInput] = useState<string | null>(null);
     // State to track which input is focused
 
-    const colorScheme = useColorScheme();
+    // const colorScheme = useColorScheme();
 
     useEffect(() => {
         loadFonts().then(() => setFontsLoaded(true));
     }, []);
 
-    useEffect(() => {
-        if (colorScheme === 'dark') {
-            StatusBar.setBarStyle('light-content');
-            StatusBar.setBackgroundColor('#000000');  // or any dark color
-        } else {
-            StatusBar.setBarStyle('dark-content');
-            StatusBar.setBackgroundColor('#ffffff');  // or any light color
-        }
-    }, [colorScheme]);
+    // useEffect(() => {
+    //     if (colorScheme === 'dark') {
+    //         StatusBar.setBarStyle('light-content');
+    //         StatusBar.setBackgroundColor('#000000');  // or any dark color
+    //     } else {
+    //         StatusBar.setBarStyle('dark-content');
+    //         StatusBar.setBackgroundColor('#ffffff');  // or any light color
+    //     }
+    // }, [colorScheme]);
 
     const handleFocus = (inputName: string) => {
         setFocusedInput(inputName);
