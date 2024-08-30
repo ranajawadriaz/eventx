@@ -6,6 +6,7 @@ import PlannerChat from '@/screens/PlannerChat';
 import PlannerProfile from '@/screens/PlannerProfile';
 import { Ionicons } from '@expo/vector-icons';
 import withLoading from '@/components/withLoading'; // Import the HOC
+import ChatbotScreen from '@/screens/ChatBotUser';
 
 const Tab = createBottomTabNavigator();
 
@@ -34,7 +35,7 @@ const PlannerTabs = () => {
                     fontFamily: 'JetBrainsMono', // Use your custom font for tab labels
                 },
                 tabBarIcon: ({ focused, color, size }) => {
-                    let iconName: 'home' | 'home-outline' | 'checkmark-circle' | 'checkmark-circle-outline' | 'chatbubble' | 'chatbubble-outline' | 'person' | 'person-outline';
+                    let iconName: 'home' | 'home-outline' | 'checkmark-circle' | 'checkmark-circle-outline' | 'chatbubble' | 'chatbubble-outline' | 'person' | 'person-outline' | 'help-circle-outline';
 
                     switch (route.name) {
                         case 'Home':
@@ -50,7 +51,7 @@ const PlannerTabs = () => {
                             iconName = focused ? 'person' : 'person-outline';
                             break;
                         default:
-                            iconName = 'home-outline'; // Default icon
+                            iconName = 'help-circle-outline'; // Default icon
                             break;
                     }
 
@@ -64,6 +65,7 @@ const PlannerTabs = () => {
             <Tab.Screen name="Apply" component={withLoading(PlannerApply)} />
             <Tab.Screen name="Chat" component={withLoading(PlannerChat)} />
             <Tab.Screen name="Profile" component={withLoading(PlannerProfile)} />
+            <Tab.Screen name="ChatBotP" component={withLoading(ChatbotScreen)} />
         </Tab.Navigator>
     );
 };

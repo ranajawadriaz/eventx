@@ -8,6 +8,7 @@ import UserProfile from '@/screens/UserProfile';
 import { isLoading } from 'expo-font';
 import LoadingScreen from '@/screens/LoadingScreen';
 import withLoading from '@/components/withLoading'; // Import the HOC
+import ChatbotScreen from '@/screens/ChatBotUser';
 
 const Tab = createBottomTabNavigator();
 
@@ -37,7 +38,7 @@ const UserTabs = () => {
                     fontFamily: 'JetBrainsMono', // Use your custom font for tab labels
                 },
                 tabBarIcon: ({ focused, color, size }) => {
-                    let iconName: 'home' | 'home-outline' | 'checkmark-circle' | 'checkmark-circle-outline' | 'chatbubble' | 'chatbubble-outline' | 'person' | 'person-outline';
+                    let iconName: 'home' | 'home-outline' | 'checkmark-circle' | 'checkmark-circle-outline' | 'chatbubble' | 'chatbubble-outline' | 'person' | 'person-outline' | 'help-circle-outline';
 
                     switch (route.name) {
                         case 'Home':
@@ -53,7 +54,7 @@ const UserTabs = () => {
                             iconName = focused ? 'person' : 'person-outline';
                             break;
                         default:
-                            iconName = 'home-outline'; // Default icon
+                            iconName = 'help-circle-outline'; // Default icon
                             break;
                     }
 
@@ -66,6 +67,7 @@ const UserTabs = () => {
       <Tab.Screen name="Apply" component={withLoading(UserApply)} />
       <Tab.Screen name="Chat" component={withLoading(UserChat)} />
       <Tab.Screen name="Profile" component={withLoading(UserProfile)} />
+      <Tab.Screen name="ChatBotU" component={withLoading(ChatbotScreen)} />
         </Tab.Navigator>
     );
 };
