@@ -7,6 +7,7 @@ import UserChat from '@/screens/UserChat';
 import UserProfile from '@/screens/UserProfile';
 import { isLoading } from 'expo-font';
 import LoadingScreen from '@/screens/LoadingScreen';
+import withLoading from '@/components/withLoading'; // Import the HOC
 
 const Tab = createBottomTabNavigator();
 
@@ -61,12 +62,10 @@ const UserTabs = () => {
             })}
         >
             
-            <Tab.Screen name="Home" component={UserHome} options={{
-                
-            }} />
-            <Tab.Screen name="Apply" component={UserApply} />
-            <Tab.Screen name="Chat" component={UserChat} />
-            <Tab.Screen name="Profile" component={UserProfile} />
+            <Tab.Screen name="Home" component={withLoading(UserHome)} />
+      <Tab.Screen name="Apply" component={withLoading(UserApply)} />
+      <Tab.Screen name="Chat" component={withLoading(UserChat)} />
+      <Tab.Screen name="Profile" component={withLoading(UserProfile)} />
         </Tab.Navigator>
     );
 };

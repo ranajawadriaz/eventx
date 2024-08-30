@@ -5,6 +5,7 @@ import PlannerApply from '@/screens/PlannerApply';
 import PlannerChat from '@/screens/PlannerChat';
 import PlannerProfile from '@/screens/PlannerProfile';
 import { Ionicons } from '@expo/vector-icons';
+import withLoading from '@/components/withLoading'; // Import the HOC
 
 const Tab = createBottomTabNavigator();
 
@@ -57,12 +58,12 @@ const PlannerTabs = () => {
                 },
             })}
         >
-            <Tab.Screen name="Home" component={PlannerHome} options={{
+            <Tab.Screen name="Home" component={withLoading(PlannerHome)} options={{
                 
             }} />
-            <Tab.Screen name="Apply" component={PlannerApply} />
-            <Tab.Screen name="Chat" component={PlannerChat} />
-            <Tab.Screen name="Profile" component={PlannerProfile} />
+            <Tab.Screen name="Apply" component={withLoading(PlannerApply)} />
+            <Tab.Screen name="Chat" component={withLoading(PlannerChat)} />
+            <Tab.Screen name="Profile" component={withLoading(PlannerProfile)} />
         </Tab.Navigator>
     );
 };

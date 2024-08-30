@@ -14,6 +14,7 @@ import * as Font from 'expo-font';
 import { useDispatch } from 'react-redux';
 import { login } from '../redux/authSlice'; // Redux action
 import * as FileSystem from 'expo-file-system';
+import * as Notifications from 'expo-notifications'; // Import Notifications
 
 const loadFonts = async () => {
   await Font.loadAsync({
@@ -32,6 +33,22 @@ const SignUpScreen = ({ navigation }: any) => {
     loadFonts().then(() => setFontsLoaded(true));
   }, []);
 
+  // Function to send a notification
+  const sendNotification = async () => {
+    await Notifications.scheduleNotificationAsync({
+      content: {
+        title: 'Event X 🎉', // Custom title
+        body: 'You have successfully registered!',
+        sound: 'default',
+        // channelId: 'default', // Correctly include channelId directly inside the content object
+      },
+      trigger: null, // Send immediately
+    });
+  };
+  
+  
+  
+
   const saveCredentials = async () => {
     const filePath =
       selectedRole === 'User'
@@ -47,6 +64,7 @@ const SignUpScreen = ({ navigation }: any) => {
       data.push({ username, password });
       await FileSystem.writeAsStringAsync(filePath, JSON.stringify(data));
       Alert.alert('Success', 'Account created successfully!');
+      sendNotification(); // Trigger notification after successful registration
       navigation.navigate('Login');
     } catch (error) {
       console.error('Error saving credentials:', error);
@@ -75,15 +93,11 @@ const SignUpScreen = ({ navigation }: any) => {
           style={styles.input}
           placeholder="FirstName"
           placeholderTextColor="#888"
-          
-          
         />
         <TextInput
           style={styles.input}
           placeholder="LastName"
           placeholderTextColor="#888"
-          
-          
         />
         <TextInput
           style={styles.input}
