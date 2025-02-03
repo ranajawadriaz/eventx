@@ -11,11 +11,13 @@ import {
   Keyboard,
   TouchableWithoutFeedback,
 } from 'react-native';
+
 import Ionicons from '@expo/vector-icons/Ionicons'; // For the send icon
 import LoadingScreen from '@/screens/LoadingScreen'; // Already imported component
 import { GoogleGenerativeAI } from '@google/generative-ai'; // Import Generative AI SDK
+// import { API_KEY } from '@env';
 
-const apiKey = 'AIzaSyA7Oxv85rLz7BxRDJAs-H8HuoACLKE16pg'; // Replace with your actual API key
+const apiKey = 'abcdefghijklmnopqrstuvwxyz'; // Replace with your actual API key
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
